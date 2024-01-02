@@ -1,5 +1,5 @@
 <template>
-  <section id="about">
+  <section id="about" class="container mt-5">
     <h1>About</h1>
   </section>
 </template>
@@ -17,5 +17,8 @@ export default {
 </script>
 
 <style lang="scss">
-  
+  #about {
+    
+  }
+
 </style>

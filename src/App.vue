@@ -1,26 +1,32 @@
 <template>
   <nav>
-    <a href="#title">home</a>
-    <a href="#portfolio">portfolio</a>
+    <router-link to="/">Home</router-link>
+    <router-link to="/portfolio">portfolio</router-link>
+    <router-link to="/about">about</router-link>
   </nav>
-  <TitleSection />
-  <Portfolio/>
+
+  <router-view />
 
 </template>
 
 <script>
-import TitleSection from './components/Title.vue';
-import Portfolio from './components/Portfolio.vue';
+// import TitleSection from './components/Title.vue';
+// import Portfolio from './components/Portfolio.vue';
+
 export default {
   name: 'App',
   components: {
-    TitleSection: TitleSection,
-    Portfolio: Portfolio,
+    // TitleSection: TitleSection,
+    // Portfolio: Portfolio,
   }
 }
 </script>
 
 <style lang="scss">
+  section {
+    padding-top: 88px;
+  }
+
   nav {
     display: flex;
     gap: 3em;
@@ -39,5 +45,4 @@ export default {
     }
   }
 
- 
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <section id="portfolio" class="container py-5">
+  <section id="portfolio" class="container mt-5">
     <h1>Portfolio</h1>
     <ul class="list row">
       <li class="col-md-4" v-for="item in data">
