@@ -4,7 +4,6 @@
     <router-link to="/portfolio">portfolio</router-link>
     <router-link to="/about">about</router-link>
   </nav>
-
   <router-view />
 
 </template>
