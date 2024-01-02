@@ -3,17 +3,19 @@
     <a href="#">home</a>
     <a href="#">portfolio</a>
   </nav>
-  <Title />
+  <TitleSection />
+  <Portfolio/>
 
 </template>
 
 <script>
-import Title from './components/Title.vue';
-
+import TitleSection from './components/Title.vue';
+import Portfolio from './components/Portfolio.vue';
 export default {
   name: 'App',
   components: {
-    Title: Title,
+    TitleSection: TitleSection,
+    Portfolio: Portfolio,
   }
 }
 </script>
