@@ -1,10 +1,11 @@
 <template>
+  <nav>
+    <a href="#">home</a>
+    <a href="#">portfolio</a>
+  </nav>
+
   <section id="title">
     <div class='container p-5'>
-      <nav>
-        <a href="#">home</a>
-        <a href="#">portfolio</a>
-      </nav>
       <div class="detail row">
         <figure class="image col-md-6">
           <img src="./assets/images/title.png" alt="title">
@@ -23,6 +24,24 @@ export default {
 </script>
 
 <style lang="scss">
+  nav {
+    display: flex;
+    gap: 3em;
+    justify-content: center;
+    background: #333;
+    padding: 2em;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+
+    a{
+      color: #fff;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+  }
+
   #title {
     background: #333;
     text-align: center;
@@ -50,18 +69,6 @@ export default {
         flex-direction: column;
         align-items: space-around;
         .text h2 { font-size: 2em; }
-      }
-    }
-
-    nav {
-      display: flex;
-      gap: 3em;
-      justify-content: center;
-
-      a{
-        color: #fff;
-        text-decoration: none;
-        text-transform: uppercase;
       }
     }
 
