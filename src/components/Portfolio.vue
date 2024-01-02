@@ -9,6 +9,8 @@
         />
         <h4>{{ item.title }}</h4>
         <p>{{ item.desc }}</p>
+        <small class="text-secondary">{{  item.skills }}</small>
+        <p><a :href="`${item.link}`" class="btn btn-primary mt-4">상세보기</a></p>
       </li>
     </ul>
   </section>
@@ -35,6 +37,9 @@
       padding: 0;
 
       li {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         margin-bottom: 10vh;
         img {
           width: 100%;

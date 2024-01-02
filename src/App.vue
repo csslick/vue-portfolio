@@ -1,7 +1,7 @@
 <template>
   <nav>
-    <a href="#">home</a>
-    <a href="#">portfolio</a>
+    <a href="#title">home</a>
+    <a href="#portfolio">portfolio</a>
   </nav>
   <TitleSection />
   <Portfolio/>
