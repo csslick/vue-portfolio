@@ -1,7 +1,16 @@
 <template>
   <section id="about" class="container mt-5">
     <h1>About</h1>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis aut cum repellat fugiat laborum veniam labore doloribus libero? Impedit amet, dolor veritatis blanditiis iure natus temporibus eos eligendi adipisci. Delectus.</p>
+    <div class="row">
+      <figure class="figure col-md-6 text-center">
+        <img src="https://placehold.co/400" class="figure-img img-fluid rounded" alt="...">
+        <figcaption class="figure-caption text-center">About Michael Kwon</figcaption>
+      </figure>
+      <p class="col-md-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis aut cum repellat fugiat laborum veniam
+        labore
+        doloribus libero? Impedit amet, dolor veritatis blanditiis iure natus temporibus eos eligendi adipisci. Delectus.
+      </p>
+    </div>
     <article class="row mt-5">
       <h2>Skills</h2>
       <dl>
@@ -43,13 +52,10 @@ export default {
 
     }
   }
-  
+
 }
 </script>
 
 <style lang="scss">
-  #about {
-    
-  }
-
+#about {}
 </style>
