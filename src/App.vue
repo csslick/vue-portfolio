@@ -4,20 +4,21 @@
     <router-link to="/portfolio">portfolio</router-link>
     <router-link to="/about">about</router-link>
   </nav>
-  <router-view />
+
+  <router-view :data="data"/>
 
 </template>
 
 <script>
-// import TitleSection from './components/Title.vue';
-// import Portfolio from './components/Portfolio.vue';
+import data from './assets/portfolio';
 
 export default {
   name: 'App',
-  components: {
-    // TitleSection: TitleSection,
-    // Portfolio: Portfolio,
-  }
+  data() {
+      return {
+        data: data,
+      }
+  },
 }
 </script>
 
