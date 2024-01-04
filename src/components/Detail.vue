@@ -22,6 +22,7 @@
       <br>
       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum soluta nihil earum harum possimus quidem minus voluptatibus vitae expedita quia voluptatem dolorum pariatur omnis, molestias, placeat quo cumque deserunt at.</p>
       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos, consequatur. Alias dignissimos beatae sequi corrupti atque ducimus expedita optio voluptatum maiores nisi, vero nobis consequatur neque ut soluta nemo aliquam!</p>
+      <button @click="$router.push('/portfolio')" class="btn btn-secondary">돌아가기</button>
     </article>
   </section>
 </template>
