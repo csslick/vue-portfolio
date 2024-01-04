@@ -8,9 +8,8 @@
           :alt="`${item.title}`"
         />
         <h4>{{ item.title }}</h4>
-        <p>{{ item.desc }}</p>
-        <small class="text-secondary">{{  item.skills }}</small>
-        <p><a :href="`${item.link}`" class="btn btn-primary mt-4">상세보기</a></p>
+        <small class="text-secondary">{{ item.skills }}</small>
+        <p><a :href="`/detail/${item.id}`" class="btn btn-primary mt-4">상세보기</a></p>
       </li>
     </ul>
   </section>
