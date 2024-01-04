@@ -6,7 +6,7 @@
     </h1>
     <article class="pb-5">
       <img 
-        :src="`/${data[$route.params.id].imgUrl}`" 
+        :src="`${data[$route.params.id].imgUrl}`" 
         :alt="`${data[$route.params.id].title}`"
       />
       <p>{{ data[$route.params.id].desc }}</p>
