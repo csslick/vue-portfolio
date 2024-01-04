@@ -9,7 +9,7 @@
         />
         <h4>{{ item.title }}</h4>
         <small class="text-secondary">{{ item.skills }}</small>
-        <p><a :href="`/detail/${item.id}`" class="btn btn-primary mt-4">상세보기</a></p>
+        <p><router-link :to="`/detail/${item.id}`" class="btn btn-primary mt-4">상세보기</router-link></p>
       </li>
     </ul>
   </section>
